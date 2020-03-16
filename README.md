@@ -1,7 +1,5 @@
 # Windows_WSL_Debian_Grav_CMS
 
-# Android_Userland_Debian_Grav_CMS
-
 A setup script with breakdown to install Grav CMS on Debian 10 'Buster' and Ubuntu 18.04 'Bionic'. 
 I wrote and tested it to be a minimal "just what you need" development environment keeping complexity low and the ability to successfully learn from it high.
 
