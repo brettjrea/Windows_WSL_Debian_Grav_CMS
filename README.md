@@ -6,6 +6,8 @@ A setup script with breakdown to install Grav CMS on Debian 10 'Buster' and Ubun
 I wrote and tested it to be a minimal "just what you need" development environment keeping complexity low and the ability to successfully learn from it high.
 </details>
 
+---
+
 # Installing quickly with a script.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -18,7 +20,10 @@ bash setupgrav.sh
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 # Install by doing what the script does snip by snip.
+
 
 ### Update, upgrade & clean.
 
@@ -32,6 +37,8 @@ sudo apt autoremove -y
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Install git and php.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -41,6 +48,8 @@ sudo apt install git php-cli php-common php-curl php-gd php-json php-mbstring ph
 ```
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Install Composer.
 
@@ -56,6 +65,8 @@ sudo mv composer.phar /usr/local/bin/composer
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Clone grav from github.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -66,6 +77,8 @@ git clone -b master https://github.com/getgrav/grav.git
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Move into grav directory.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -73,6 +86,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `cd ~/grav`
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Use composer to install dependecies.
 
@@ -82,6 +97,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Run grav installer.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -89,6 +106,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `bin/grav install`
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Install grav admin panel.
 
@@ -98,6 +117,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Install git-sync.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -105,6 +126,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `bin/gpm install git-sync`
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Check for grav upgrade.
 
@@ -114,6 +137,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
 
+---
+
 ### Check for theme plugin updates.
 
 Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
@@ -121,6 +146,8 @@ Copy the following with <kbd>CTRL</kbd>+<kbd>C</kbd>
 `bin/gpm update -f`
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
 
 ### Start PHP built-in webserver with router.php.
 
@@ -131,3 +158,5 @@ php -S localhost:8000 system/router.php
 ```
 
 and paste into Powershell with <kbd>Right Mouse Click</kbd> and press <kbd>Enter</kbd>
+
+---
